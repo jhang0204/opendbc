@@ -479,6 +479,10 @@ class CAR(Platforms):
     CarSpecs(mass=1450, wheelbase=2.65, steerRatio=13.75, tireStiffnessFactor=0.5),
     flags=HyundaiFlags.LEGACY,
   )
+  KIA_CEED_SPORTSWAGON = HyundaiPlatformConfig(
+    [HyundaiCarDocs("Kia Ceed Sportswagon", car_parts=CarParts.common([CarHarness.hyundai_g]))],
+    CarSpecs(mass=1836, wheelbase=2.70, steerRatio=13.0, tireStiffnessFactor=1.9),
+  )
   KIA_EV6 = HyundaiCanFDPlatformConfig(
     [
       HyundaiCarDocs("Kia EV6 (Southeast Asia only) 2022-24", "All", car_parts=CarParts.common([CarHarness.hyundai_p])),
