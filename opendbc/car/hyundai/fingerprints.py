@@ -555,13 +555,13 @@ FW_VERSIONS = {
   },
 CAR.KIA_CEED_SPORTSWAGON: {
     (Ecu.fwdRadar, 0x7d0, None): [
-      b'\xf1\x00CDPE__ SCC F-CUP      1.00 1.01 99110-J7700         '
+      b'\xf1\x00CDPE_SCC F-CUPC     1.01 1.01 99110-J7700\x00\x00\x00\x00\x00\x00\x00\x00\x00'
     ],
     (Ecu.eps, 0x7d4, None): [
-      b'\xf1\x00CDM  MDPS C 1.00 1.03 56310-J7620 4CPMC103',
+      b'\xf1\x00CDM MDPS C 1.00 1.03 56310-J7620 4CPMC103',
     ],
     (Ecu.fwdCamera, 0x7c4, None): [
-      b'\xf1\x00CDE  LKAS AT EUR LHD 1.01 1.02 99211-J7700 832',
+      b'\xf1\x00CDE LKAS AT EUR LHD 1.01 1.02 99211-J7700 832',
     ],
     (Ecu.abs, 0x7d1, None): [
       b'\xf1\x00CD ESC \x1f 100"\x05\x13 58910-J7EC0',
